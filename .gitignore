@@ -1,3 +1,41 @@
+*/bin/*
+bin/
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+
+# Eclipse
+.settings/
+*.project
+*.classpath
+.prefs
+*.prefs
+.metadata/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+out/
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# Maven
+log/*
+target/
+build/
+
+# Gradle
+.gradle/
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
