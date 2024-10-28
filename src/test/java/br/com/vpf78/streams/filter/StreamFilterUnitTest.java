@@ -16,6 +16,8 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy;
 
 public class StreamFilterUnitTest {
 
+    // https://www.baeldung.com/java-stream-filter-lambda
+
     private List<Customer> customers;
 
     @Before
