@@ -2,8 +2,7 @@ package br.com.vpf78.streams.filter;
 
 import com.pivovarit.function.ThrowingPredicate;
 import com.pivovarit.function.exception.WrappedException;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
@@ -19,10 +18,6 @@ public class StreamFilterUnitTest {
     // https://www.baeldung.com/java-stream-filter-lambda
 
     private List<Customer> customers;
-
-    @Before
-    public void setup() {
-    }
 
 
     @Test

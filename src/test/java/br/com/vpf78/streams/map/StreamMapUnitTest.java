@@ -1,13 +1,18 @@
 package br.com.vpf78.streams.map;
 
-import org.junit.Before;
-import org.junit.Test;
 
-import java.util.*;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class StreamMapUnitTest {
 
@@ -15,7 +20,8 @@ public class StreamMapUnitTest {
 
     private Map<String, String> books;
 
-    @Before
+
+    @BeforeEach
     public void setup() {
         books = new HashMap<>();
         books.put("978-0201633610", "Design patterns : elements of reusable object-oriented software");
