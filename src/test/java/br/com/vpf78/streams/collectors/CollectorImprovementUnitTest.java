@@ -11,6 +11,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CollectorImprovementUnitTest {
 
+    //https://www.baeldung.com/java-collectors
+
     @Test
     void givenList_whenSatifyPredicate_thenMapValueWithOccurences() {
         List<Integer> numbers = List.of(1, 2, 3, 5, 5);
