@@ -42,11 +42,6 @@
             <version>${vavr.version}</version>
         </dependency>
         <dependency>
-            <groupId>one.util</groupId>
-            <artifactId>streamex</artifactId>
-            <version>${streamex.version}</version>
-        </dependency>
-        <dependency>
             <groupId>com.pivovarit</groupId>
             <artifactId>throwing-function</artifactId>
             <version>1.5.1</version>
