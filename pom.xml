@@ -15,6 +15,9 @@
         <commons-lang3.version>3.17.0</commons-lang3.version>
         <jool.version>0.9.12</jool.version>
         <streamex.version>0.8.1</streamex.version>
+        <vavr.version>0.10.4</vavr.version>
+        <protonpack.version>1.16</protonpack.version>
+        <streamex.version>0.8.1</streamex.version>
     </properties>
 
     <dependencies>
@@ -22,6 +25,21 @@
             <groupId>org.jooq</groupId>
             <artifactId>jool</artifactId>
             <version>${jool.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>one.util</groupId>
+            <artifactId>streamex</artifactId>
+            <version>${streamex.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.codepoetics</groupId>
+            <artifactId>protonpack</artifactId>
+            <version>${protonpack.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.vavr</groupId>
+            <artifactId>vavr</artifactId>
+            <version>${vavr.version}</version>
         </dependency>
         <dependency>
             <groupId>one.util</groupId>
